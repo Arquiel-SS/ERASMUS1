@@ -28,7 +28,7 @@ header {
 }
 
 .navegacion {
-	background-color: #fea31b;
+	background: linear-gradient(to right, #59c6c5, #fea31b);
 	display:flex;
 	justify-content: center;
 	align-items: center;
