@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dinamarca.css">
+    <title>Proyecto ERASMUS</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Nombre del País - Proyecto ERASMUS</h1>
+    </header>
+
+    <section id="country-info">
+        <h2>Información sobre el País</h2>
+        <p>Descripción del país, cultura, idioma, etc.</p>
+    </section>
+
+    <section id="activities">
+        <h2>Actividades</h2>
+        <ul>
+            <li>Actividad 1</li>
+            <li>Actividad 2</li>
+            <li>Actividad 3</li>
+            <!-- Añade más actividades según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="places-to-visit">
+        <h2>Lugares para Visitar</h2>
+        <ul>
+            <li>Lugar 1</li>
+            <li>Lugar 2</li>
+            <li>Lugar 3</li>
+            <!-- Añade más lugares según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="comments-section" class="comments">
+        <h2>Comentarios y Publicaciones</h2>
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://erasmus-2.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+                Disqus.</a></noscript>
+
+        <div id="comments-container">
+            <!-- Aquí se mostrarán los comentarios -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Proyecto ERASMUS</p>
+    </footer>
+    <script id="dsq-count-scr" src="//erasmus-2.disqus.com/count.js" async></script>
+</body>
+
+</html>
