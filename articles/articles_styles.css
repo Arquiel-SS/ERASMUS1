@@ -13,9 +13,10 @@ nav {
 }
 
 body {
-	font-family: 'Arial', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 	/* Puedes cambiar 'Arial' por la fuente que prefieras de Google Fonts */
 	margin: 0;
+	background: linear-gradient(to right, white, #d6d6d6);
 }
 
 header {
@@ -45,7 +46,7 @@ header {
 }
 
 .logo img {
-	width: 125px;
+	width: 180px;
 	height: auto; /* Cambiado para mantener la proporción */
 }
 

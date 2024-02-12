@@ -77,7 +77,7 @@ a:link {
 
 .main-title {
     font-size: 48px;
-    color: #db008d;
+    color: #85e7ff;
     margin-bottom: 40px;
 }
 
@@ -97,7 +97,7 @@ a:link {
 }
 
 .topic {
-    background-color: #db008d;
+    background-color: #f4be5a;
     color: #ffffff;
     padding: 15px 30px;
     margin: 0 10px;
@@ -108,7 +108,7 @@ a:link {
 }
 
 .topic:hover {
-    background-color: rgb(255, 119, 225);
+    background-color: rgb(251, 230, 176);
     color: #ffffffc1;
 }
 
