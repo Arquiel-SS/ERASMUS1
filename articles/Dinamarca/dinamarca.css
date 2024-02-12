@@ -141,6 +141,45 @@ footer {
     flex: 1;
 }
 
+#places-to-visit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 250px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-description {
+    display: none; /* Oculta la descripción por defecto */
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-description p {
+    margin: 0;
+    color: #333;
+}
+
 /* Animaciones */
 /* Nuevos estilos para la animación */
 .fade-in {

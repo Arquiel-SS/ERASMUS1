@@ -37,15 +37,19 @@
         </div>
         <div class="text-info">
             <h2>Información sobre Dinamarca</h2>
-            <p>Dinamarca, situada en el norte de Europa, es conocida por su rica historia, impresionante arquitectura y calidad de vida excepcional. Con una población acogedora y un entorno seguro, Dinamarca es un destino ideal para tu experiencia ERASMUS.</p>
+            <p>Dinamarca, situada en el norte de Europa, es conocida por su rica historia, impresionante arquitectura y
+                calidad de vida excepcional. Con una población acogedora y un entorno seguro, Dinamarca es un destino
+                ideal para tu experiencia ERASMUS.</p>
         </div>
     </section>
-    
-    
+
+
     <section id="activities">
         <h2>Actividades en Dinamarca</h2>
-        <p>Explora la vibrante vida cultural de Dinamarca participando en diversas actividades. Desde visitar museos de arte hasta disfrutar de festivales locales, hay algo para todos. No te pierdas la oportunidad de explorar la ciudad en bicicleta, una de las actividades más populares entre los locales.</p>
-        
+        <p>Explora la vibrante vida cultural de Dinamarca participando en diversas actividades. Desde visitar museos de
+            arte hasta disfrutar de festivales locales, hay algo para todos. No te pierdas la oportunidad de explorar la
+            ciudad en bicicleta, una de las actividades más populares entre los locales.</p>
+
         <!-- Galería de imágenes con Glide.js -->
         <div class="glide">
             <div class="glide__track" data-glide-el="track">
@@ -53,19 +57,22 @@
                     <li class="glide__slide">
                         <img src="/img/Dinamarca_articulo.jpg" alt="Actividad 1">
                         <div class="activity-description">
-                            <p>Visitar el Museo Nacional de Dinamarca. Descubre la rica historia del país en este fascinante museo.</p>
+                            <p>Visitar el Museo Nacional de Dinamarca. Descubre la rica historia del país en este
+                                fascinante museo.</p>
                         </div>
                     </li>
                     <li class="glide__slide">
                         <img src="/img/Estonia_articulo.jpg" alt="Actividad 2">
                         <div class="activity-description">
-                            <p>Participar en festivales de música danesa. Disfruta de la vibrante escena musical del país.</p>
+                            <p>Participar en festivales de música danesa. Disfruta de la vibrante escena musical del
+                                país.</p>
                         </div>
                     </li>
                     <li class="glide__slide">
                         <img src="/img/Francia_articulo.jpg" alt="Actividad 3">
                         <div class="activity-description">
-                            <p>Explorar la vida nocturna en Copenhague. Descubre los bares y clubes más animados de la capital danesa.</p>
+                            <p>Explorar la vida nocturna en Copenhague. Descubre los bares y clubes más animados de la
+                                capital danesa.</p>
                         </div>
                     </li>
                     <!-- Añade más imágenes y descripciones según sea necesario -->
@@ -77,7 +84,7 @@
             </div>
         </div>
     </section>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script>
         // Inicializar Glide.js después de que la página se haya cargado completamente
@@ -88,21 +95,48 @@
             }).mount();
         });
     </script>
-    
-    
-    
-    
-    <section id="places-to-visit">
-        <h2>Lugares para Visitar en Dinamarca</h2>
-        <p>Descubre la belleza natural y los lugares históricos que Dinamarca tiene para ofrecer. Desde castillos impresionantes hasta paisajes costeros pintorescos, aquí hay algunos lugares que no querrás perderte durante tu estancia en Dinamarca.</p>
-        <ul>
-            <li>Castillo de Kronborg en Helsingør.</li>
-            <li>Ciudad vieja de Aarhus.</li>
-            <li>Acantilados de Møns Klint.</li>
-            <!-- Añade más lugares según sea necesario -->
-        </ul>
-    </section>
-    
+
+
+
+
+<section id="places-to-visit">
+    <h2>Lugares para Visitar en Dinamarca</h2>
+    <p>Descubre la belleza natural y los lugares históricos que Dinamarca tiene para ofrecer. Desde castillos impresionantes hasta paisajes costeros pintorescos, aquí hay algunos lugares que no querrás perderte durante tu estancia en Dinamarca.</p>
+
+    <!-- Tarjetas de lugares para visitar -->
+    <div class="card" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+        <img src="/img/Malta_articulo.jpg" alt="Castillo de Kronborg">
+        <div class="card-description">
+            <p>Castillo de Kronborg en Helsingør.</p>
+        </div>
+    </div>
+
+    <div class="card" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+        <img src="/img/Francia_articulo.jpg" alt="Ciudad vieja de Aarhus">
+        <div class="card-description">
+            <p>Ciudad vieja de Aarhus.</p>
+        </div>
+    </div>
+
+    <div class="card" onmouseover="showDescription(this)" onmouseout="hideDescription(this)">
+        <img src="/img/Finlandia_articulo.jpg" alt="Acantilados de Møns Klint">
+        <div class="card-description">
+            <p>Acantilados de Møns Klint.</p>
+        </div>
+    </div>
+    <!-- Agrega más tarjetas según sea necesario -->
+
+</section>
+<script>
+    function showDescription(card) {
+        card.getElementsByClassName('card-description')[0].style.display = 'block';
+    }
+
+    function hideDescription(card) {
+        card.getElementsByClassName('card-description')[0].style.display = 'none';
+    }
+</script>
+
 
     <section id="comments-section" class="comments">
         <h2>Comentarios y Publicaciones</h2>
@@ -115,7 +149,8 @@
                 (d.head || d.body).appendChild(s);
             })();
         </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+                by
                 Disqus.</a></noscript>
 
         <div id="comments-container">
